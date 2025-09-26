@@ -1,7 +1,7 @@
 # Classe Tarefa 
 class Tarefa:
     # Construtor
-    def __init__(self, descricao, tipo, id=None):
+    def __init__(self, descricao, tipo=None, id=None):
         self.descricao = descricao
         self.concluida = False
         self.tipo = tipo
@@ -9,7 +9,7 @@ class Tarefa:
     
     
     # Atualizar Tarefa Para Marcá-la como Comcluida
-    def marcar_concluida (self):
+    def marcar_concluida(self):
         self.concluida = True
 
     

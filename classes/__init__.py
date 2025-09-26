@@ -1,0 +1,1 @@
+from .cls_lista import Lista_Tarefas
